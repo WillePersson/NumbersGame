@@ -7,7 +7,7 @@ namespace NumbersGame //Wille Persson - NET23
         static void Main(string[] args)
         { 
             Random random = new Random(); //makes radom number
-            int min = 1;  // ,in number
+            int min = 1;  // min number
             int max = 20; // max number
             int guess = 0; // guess
             int number;  //number 
