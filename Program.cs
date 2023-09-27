@@ -6,7 +6,7 @@ namespace NumbersGame //Wille Persson - NET23
     {
         static void Main(string[] args)
         { 
-            Random random = new Random(); //makes radom number
+            Random random = new Random(); //stores ramdóm number
             int min = 1;  // min number
             int max = 20; // max number
             int guess = 0; // guess
@@ -18,7 +18,7 @@ namespace NumbersGame //Wille Persson - NET23
             Console.WriteLine("Välkommen! Jag tänker på ett nummer." +
                 "Kan du gissa vilket? Du får fem försök.");
 
-            // generate new randoom number
+            // generate new randoom number bettwen one and twenty
             number = random.Next(min, max + 1);
 
 
